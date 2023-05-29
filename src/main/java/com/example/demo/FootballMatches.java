@@ -16,7 +16,6 @@ public class FootballMatches {
     private static final String MATCH_URL_2 = "https://jsonmock.hackerrank.com/api/football_competitions";
 
     public static int getTotalGoals(String team, int year) {
-
         int cnt = 0;
         int page = 1;
         int tot_pages = 1;
